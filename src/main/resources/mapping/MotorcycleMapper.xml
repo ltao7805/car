@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.dao.MotorcycleMapper">
+  <resultMap id="BaseResultMap" type="com.example.pojo.Motorcycle">
+    <!--@mbg.generated-->
+    <!--@Table motorcycle-->
+    <id column="motorcycleid" jdbcType="VARCHAR" property="motorcycleid" />
+    <result column="motorcyclepp" jdbcType="VARCHAR" property="motorcyclepp" />
+    <result column="motorcyclecxmc" jdbcType="VARCHAR" property="motorcyclecxmc" />
+    <result column="motorcyclegc" jdbcType="VARCHAR" property="motorcyclegc" />
+    <result column="motorcyclejg" jdbcType="VARCHAR" property="motorcyclejg" />
+    <result column="motorcyclegl" jdbcType="VARCHAR" property="motorcyclegl" />
+    <result column="motorcyclebh" jdbcType="VARCHAR" property="motorcyclebh" />
+    <result column="motorcyclezz" jdbcType="VARCHAR" property="motorcyclezz" />
+    <result column="motorcyclefdj" jdbcType="VARCHAR" property="motorcyclefdj" />
+  </resultMap>
+</mapper>

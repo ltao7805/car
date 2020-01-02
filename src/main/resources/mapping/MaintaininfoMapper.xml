@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.dao.MaintaininfoMapper">
+  <resultMap id="BaseResultMap" type="com.example.pojo.Maintaininfo">
+    <!--@mbg.generated-->
+    <!--@Table maintaininfo-->
+    <id column="coding" jdbcType="INTEGER" property="coding" />
+    <result column="itemName" jdbcType="VARCHAR" property="itemname" />
+    <result column="priceType" jdbcType="VARCHAR" property="pricetype" />
+    <result column="standard" jdbcType="VARCHAR" property="standard" />
+    <result column="VIP" jdbcType="VARCHAR" property="vip" />
+    <result column="project" jdbcType="VARCHAR" property="project" />
+  </resultMap>
+</mapper>

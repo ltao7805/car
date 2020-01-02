@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.dao.VehicleMapper">
+  <resultMap id="BaseResultMap" type="com.example.pojo.Vehicle">
+    <!--@mbg.generated-->
+    <!--@Table vehicle-->
+    <id column="vehiclecp" jdbcType="VARCHAR" property="vehiclecp" />
+    <result column="vehiclepp" jdbcType="VARCHAR" property="vehiclepp" />
+    <result column="vehiclexh" jdbcType="VARCHAR" property="vehiclexh" />
+    <result column="vehiclejsy" jdbcType="VARCHAR" property="vehiclejsy" />
+    <result column="vehicledh" jdbcType="VARCHAR" property="vehicledh" />
+    <result column="vehiclegs" jdbcType="VARCHAR" property="vehiclegs" />
+    <result column="vehiclefdj" jdbcType="VARCHAR" property="vehiclefdj" />
+    <result column="vehiclefname" jdbcType="VARCHAR" property="vehiclefname" />
+    <result column="vehiclefdq" jdbcType="DATE" property="vehiclefdq" />
+    <result column="vehiclefcjh" jdbcType="VARCHAR" property="vehiclefcjh" />
+    <result column="vehicleffdjh" jdbcType="VARCHAR" property="vehicleffdjh" />
+    <result column="vehiclefzz" jdbcType="VARCHAR" property="vehiclefzz" />
+    <result column="vehiclefrylb" jdbcType="VARCHAR" property="vehiclefrylb" />
+    <result column="vehiclefcx" jdbcType="VARCHAR" property="vehiclefcx" />
+  </resultMap>
+</mapper>

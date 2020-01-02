@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.dao.RescueMapper">
+  <resultMap id="BaseResultMap" type="com.example.pojo.Rescue">
+    <!--@mbg.generated-->
+    <!--@Table rescue-->
+    <id column="carHao" jdbcType="VARCHAR" property="carhao" />
+    <result column="businessType" jdbcType="VARCHAR" property="businesstype" />
+    <result column="gooff" jdbcType="TIMESTAMP" property="gooff" />
+    <result column="goaddress" jdbcType="VARCHAR" property="goaddress" />
+    <result column="driveCar" jdbcType="VARCHAR" property="drivecar" />
+    <result column="shigongTime" jdbcType="TIMESTAMP" property="shigongtime" />
+    <result column="succordz" jdbcType="VARCHAR" property="succordz" />
+    <result column="wangTime" jdbcType="TIMESTAMP" property="wangtime" />
+    <result column="estimate" jdbcType="VARCHAR" property="estimate" />
+    <result column="mNote" jdbcType="VARCHAR" property="mnote" />
+    <result column="statement" jdbcType="VARCHAR" property="statement" />
+    <result column="driver" jdbcType="VARCHAR" property="driver" />
+    <result column="driverTele" jdbcType="VARCHAR" property="drivertele" />
+  </resultMap>
+</mapper>

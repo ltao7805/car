@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.dao.PickcarMapper">
+  <resultMap id="BaseResultMap" type="com.example.pojo.Pickcar">
+    <!--@mbg.generated-->
+    <!--@Table pickcar-->
+    <id column="carNo" jdbcType="VARCHAR" property="carno" />
+    <result column="consultant" jdbcType="VARCHAR" property="consultant" />
+    <result column="driver" jdbcType="VARCHAR" property="driver" />
+    <result column="driverPhone" jdbcType="VARCHAR" property="driverphone" />
+    <result column="businessType" jdbcType="VARCHAR" property="businesstype" />
+    <result column="construction" jdbcType="VARCHAR" property="construction" />
+    <result column="pickOne" jdbcType="VARCHAR" property="pickone" />
+    <result column="expectedCompletion" jdbcType="TIMESTAMP" property="expectedcompletion" />
+    <result column="clearing" jdbcType="VARCHAR" property="clearing" />
+    <result column="estimated" jdbcType="VARCHAR" property="estimated" />
+    <result column="remark" jdbcType="VARCHAR" property="remark" />
+    <result column="repairs" jdbcType="VARCHAR" property="repairs" />
+  </resultMap>
+</mapper>

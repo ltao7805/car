@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.dao.AffiliationMapper">
+  <resultMap id="BaseResultMap" type="com.example.pojo.Affiliation">
+    <!--@mbg.generated-->
+    <!--@Table affiliation-->
+    <id column="affiliationid" jdbcType="VARCHAR" property="affiliationid" />
+    <result column="affiliationname" jdbcType="VARCHAR" property="affiliationname" />
+  </resultMap>
+</mapper>

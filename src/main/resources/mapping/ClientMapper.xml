@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.dao.ClientMapper">
+  <resultMap id="BaseResultMap" type="com.example.pojo.Client">
+    <!--@mbg.generated-->
+    <!--@Table client-->
+    <id column="clientid" jdbcType="VARCHAR" property="clientid" />
+    <result column="clientname" jdbcType="VARCHAR" property="clientname" />
+    <result column="clientiphone" jdbcType="VARCHAR" property="clientiphone" />
+    <result column="clientaddress" jdbcType="VARCHAR" property="clientaddress" />
+    <result column="clientbirthday" jdbcType="DATE" property="clientbirthday" />
+    <result column="clientbz" jdbcType="VARCHAR" property="clientbz" />
+    <result column="clientlb" jdbcType="VARCHAR" property="clientlb" />
+  </resultMap>
+</mapper>

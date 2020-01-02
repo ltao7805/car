@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.dao.PdetailsMapper">
+  <resultMap id="BaseResultMap" type="com.example.pojo.Pdetails">
+    <!--@mbg.generated-->
+    <!--@Table pdetails-->
+    <id column="detailno" jdbcType="VARCHAR" property="detailno" />
+    <result column="projectChild" jdbcType="VARCHAR" property="projectchild" />
+    <result column="projectNo" jdbcType="VARCHAR" property="projectno" />
+  </resultMap>
+</mapper>

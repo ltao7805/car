@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.dao.BrandMapper">
+  <resultMap id="BaseResultMap" type="com.example.pojo.Brand">
+    <!--@mbg.generated-->
+    <!--@Table brand-->
+    <id column="brandid" jdbcType="VARCHAR" property="brandid" />
+    <result column="brandname" jdbcType="VARCHAR" property="brandname" />
+  </resultMap>
+</mapper>
